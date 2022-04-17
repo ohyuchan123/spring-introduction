@@ -31,7 +31,7 @@ public class MemberService {
         memberRepository.findByname(member.getName())
                 .ifPresent(member1 -> {
                     try {
-                        throw new IllegalAccessException("이미 존재하는 회원 입니다");
+                        throw new IllegalAccessException("이미 존재하는 회원 입니다123");
                     } catch (IllegalAccessException e) {
                         e.printStackTrace();
                     }
