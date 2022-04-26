@@ -79,6 +79,10 @@ class MemberServiceTest {
     
     @Test
     void findOne(){
+        //given
 
+        //when
+
+        //then
     }
 }
