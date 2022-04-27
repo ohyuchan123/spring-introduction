@@ -1,9 +1,7 @@
-package first.spring.hellospring.service;
+package first.spring.introductionspring.service;
 
-import first.spring.hellospring.domain.Member;
-import first.spring.hellospring.repository.MemberRepository;
-import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.stereotype.Service;
+import first.spring.introductionspring.domain.Member;
+import first.spring.introductionspring.repository.MemberRepository;
 
 import java.util.List;
 import java.util.Optional;

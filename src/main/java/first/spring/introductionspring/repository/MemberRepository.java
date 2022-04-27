@@ -1,8 +1,7 @@
-package first.spring.hellospring.repository;
+package first.spring.introductionspring.repository;
 
-import first.spring.hellospring.domain.Member;
+import first.spring.introductionspring.domain.Member;
 
-import java.util.ArrayList;
 import java.util.List;
 import java.util.Optional;
 

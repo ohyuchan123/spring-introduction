@@ -1,4 +1,4 @@
-package first.spring.hellospring;
+package first.spring.introductionspring;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

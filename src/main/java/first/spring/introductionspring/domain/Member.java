@@ -1,4 +1,4 @@
-package first.spring.hellospring.domain;
+package first.spring.introductionspring.domain;
 
 public class Member {
     private Long id;
