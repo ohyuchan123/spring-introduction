@@ -84,7 +84,7 @@ public class JdbcMemberRepository implements MemberRepository{
                 member.setName(rs.getString("name"));
                 members.add(member);
             }
-            return members;
+                return members;
         } catch (Exception e) {
             throw new IllegalStateException(e);
         } finally {
