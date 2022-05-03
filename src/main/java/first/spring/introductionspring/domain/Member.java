@@ -1,6 +1,12 @@
 package first.spring.introductionspring.domain;
 
+import org.springframework.web.bind.annotation.GetMapping;
+
+import javax.persistence.*;
+
+@Entity//jpa가 관리하는 entity
 public class Member {
+    @Id @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
     private String name;
 
