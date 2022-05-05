@@ -1,8 +1,9 @@
-package first.spring.introductionspring;
+package spring.introductionspring;
 
-import first.spring.introductionspring.repository.JpaMemberRepository;
-import first.spring.introductionspring.repository.MemberRepository;
-import first.spring.introductionspring.service.MemberService;
+import spring.introductionspring.aop.TimeTraceAop;
+import spring.introductionspring.repository.JpaMemberRepository;
+import spring.introductionspring.repository.MemberRepository;
+import spring.introductionspring.service.MemberService;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 
@@ -23,6 +24,11 @@ public class SpringConfig {
     public MemberService memberService() {
         return new MemberService(memberRepository());
     }
+
+//    @Bean
+//    public TimeTraceAop timeTraceAop(){
+//        return new TimeTraceAop();
+//    }
 
     @Bean
     public MemberRepository memberRepository() {

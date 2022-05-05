@@ -1,10 +1,11 @@
-package first.spring.introductionspring.service;
+package spring.introductionspring.service;
 
-import first.spring.introductionspring.domain.Member;
-import first.spring.introductionspring.repository.MemoryMemberRepository;
+import spring.introductionspring.domain.Member;
+import spring.introductionspring.repository.MemoryMemberRepository;
 import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
+import spring.introductionspring.service.MemberService;
 
 import static org.assertj.core.api.AssertionsForClassTypes.assertThat;
 import static org.junit.jupiter.api.Assertions.*;

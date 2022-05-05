@@ -1,7 +1,7 @@
-package first.spring.introductionspring.controller;
+package spring.introductionspring.controller;
 
-import first.spring.introductionspring.domain.Member;
-import first.spring.introductionspring.service.MemberService;
+import spring.introductionspring.domain.Member;
+import spring.introductionspring.service.MemberService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;

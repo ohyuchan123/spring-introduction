@@ -1,7 +1,7 @@
-package first.spring.introductionspring.service;
+package spring.introductionspring.service;
 
-import first.spring.introductionspring.domain.Member;
-import first.spring.introductionspring.repository.MemberRepository;
+import spring.introductionspring.domain.Member;
+import spring.introductionspring.repository.MemberRepository;
 
 import java.util.List;
 import java.util.Optional;

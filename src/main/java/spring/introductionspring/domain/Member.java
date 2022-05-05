@@ -1,4 +1,4 @@
-package first.spring.introductionspring.domain;
+package spring.introductionspring.domain;
 
 import org.springframework.web.bind.annotation.GetMapping;
 

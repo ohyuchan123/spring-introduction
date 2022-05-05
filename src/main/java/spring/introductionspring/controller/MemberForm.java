@@ -1,4 +1,4 @@
-package first.spring.introductionspring.controller;
+package spring.introductionspring.controller;
 
 
 public class MemberForm {

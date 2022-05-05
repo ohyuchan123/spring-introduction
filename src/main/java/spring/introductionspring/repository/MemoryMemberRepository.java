@@ -1,6 +1,6 @@
-package first.spring.introductionspring.repository;
+package spring.introductionspring.repository;
 
-import first.spring.introductionspring.domain.Member;
+import spring.introductionspring.domain.Member;
 
 import java.util.*;
 
